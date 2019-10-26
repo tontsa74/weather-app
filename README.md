@@ -18,6 +18,6 @@ To run this project, clone github repository and build it with Xcode:
 
 ```
 $ cd ../<your folder>
-$ git clone ....
+$ git clone https://github.com/tontsa74/weather-app.git
 open with Xcode to build and run with simulator
 ```
