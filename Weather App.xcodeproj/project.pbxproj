@@ -21,7 +21,6 @@
 		374B9D29234B17DE005FDDA5 /* CurrentWeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 374B9D28234B17DE005FDDA5 /* CurrentWeatherData.swift */; };
 		37C66DA1234F297C0006190B /* CitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C66DA0234F297C0006190B /* CitiesTableViewController.swift */; };
 		37C66DA3234F49020006190B /* FiveDaysTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C66DA2234F49020006190B /* FiveDaysTableViewCell.swift */; };
-		37E4499323601D33006A7691 /* gpsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E4499223601D33006A7691 /* gpsIcon.png */; };
 		37E4499523632502006A7691 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 37E4499423632502006A7691 /* icon.png */; };
 /* End PBXBuildFile section */
 
@@ -63,7 +62,6 @@
 		374B9D28234B17DE005FDDA5 /* CurrentWeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherData.swift; sourceTree = "<group>"; };
 		37C66DA0234F297C0006190B /* CitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesTableViewController.swift; sourceTree = "<group>"; };
 		37C66DA2234F49020006190B /* FiveDaysTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FiveDaysTableViewCell.swift; sourceTree = "<group>"; };
-		37E4499223601D33006A7691 /* gpsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gpsIcon.png; path = ../../../../Downloads/gpsIcon.png; sourceTree = "<group>"; };
 		37E4499423632502006A7691 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../../../../Downloads/icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -133,7 +131,6 @@
 				37C66DA0234F297C0006190B /* CitiesTableViewController.swift */,
 				373EAF52235897CC00FA4C15 /* structs */,
 				374B9CFE234B0961005FDDA5 /* Main.storyboard */,
-				37E4499223601D33006A7691 /* gpsIcon.png */,
 				374B9D01234B0970005FDDA5 /* Assets.xcassets */,
 				374B9D03234B0970005FDDA5 /* LaunchScreen.storyboard */,
 				374B9D06234B0970005FDDA5 /* Info.plist */,
@@ -266,7 +263,6 @@
 			files = (
 				374B9D05234B0970005FDDA5 /* LaunchScreen.storyboard in Resources */,
 				37E4499523632502006A7691 /* icon.png in Resources */,
-				37E4499323601D33006A7691 /* gpsIcon.png in Resources */,
 				374B9D02234B0970005FDDA5 /* Assets.xcassets in Resources */,
 				374B9D00234B0961005FDDA5 /* Main.storyboard in Resources */,
 			);

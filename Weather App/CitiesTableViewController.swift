@@ -17,7 +17,8 @@ class CitiesTableViewController: UITableViewController, CLLocationManagerDelegat
     
     @IBAction func editButton(_ sender: UIButton) {
         tableView.isEditing.toggle()
-        if (sender.currentTitle == "Edit") {
+        
+        if (tableView.isEditing) {
             sender.setTitle("✅", for: .normal)
         } else {
             sender.setTitle("Edit", for: .normal)
@@ -70,6 +71,7 @@ class CitiesTableViewController: UITableViewController, CLLocationManagerDelegat
         
         return cell
     }
+    
     
     override func tableView(_ tableView: UITableView, commit editingStyle: UITableViewCell.EditingStyle, forRowAt indexPath: IndexPath) {
         if editingStyle == .delete {
